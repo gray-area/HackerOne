@@ -23,6 +23,6 @@ In order to enumerate this table, we will need to run the following sqlmap:
 
 `` sqlmap -u [hackeroneurl] --forms --crawl=2 --tables -T admins --dump ``
 
-![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")
+![Alt text](https://github.com/gray-area/HackerOne/blob/main/media/Capture1.PNG)
 
 
