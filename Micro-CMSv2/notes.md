@@ -15,7 +15,7 @@ In order to do this, I launched SQLMap from my Kali machine
 
 `` sqlmap -u [hackeroneurl] --forms --crawl=2 --tables``
 
-![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")
+![Alt text](https://github.com/gray-area/HackerOne/blob/main/media/capture.PNG)
 
 In the image above we can see the table named `` admins ``.
 
