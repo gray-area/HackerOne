@@ -6,6 +6,13 @@ The first thing that I noticed is that we do not have the ability to edit or cre
 
 In order to login, I tried a couple of easy username and password combinations, but that did not work, so I moved on. 
 
+```
+admin:admin
+root:root
+admin:password
+admin:password1
+```
+
 The next thing that I checked for was SQL injection. I tested for this with a simple `` ' `` in the username field and a blank password. After hitting enter, I saw that 
 there was a SQL error that was displayed. 
 
@@ -13,7 +20,9 @@ there was a SQL error that was displayed.
 
 Its SQL Injection vulnerable!
 
-Now to figure out, how to use SQL Injection to get inforamtion or bypass the authentication...
+Now to figure out, how to use SQL Injection to get information or bypass the authentication...
+
+## SQLMap
 
 In order to do this, I launched SQLMap from my Kali machine
 
