@@ -9,6 +9,8 @@ In order to login, I tried a couple of easy username and password combinations, 
 The next thing that I checked for was SQL injection. I tested for this with a simple `` ' `` in the username field and a blank password. After hitting enter, I saw that 
 there was a SQL error that was displayed. 
 
+![Alt Text](https://github.com/gray-area/HackerOne/blob/main/media/sql_error.png)
+
 Its SQL Injection vulnerable!
 
 Now to figure out, how to use SQL Injection to get inforamtion or bypass the authentication...
@@ -26,5 +28,9 @@ In order to enumerate this table, we will need to run the following sqlmap:
 `` sqlmap -u [hackeroneurl] --forms --crawl=2 --tables -T admins --dump ``
 
 ![Alt text](https://github.com/gray-area/HackerOne/blob/main/media/Capture1.PNG)
+
+Now all we just need to login using the username and password!
+
+![Alt Text](https://github.com/gray-area/HackerOne/blob/main/media/login.png)
 
 
