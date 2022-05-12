@@ -1,6 +1,4 @@
-## Flag 0
-
-## Authentication Bypass
+## Flag 0 - Authentication Bypass
 
 For my method, you will need 2 tools. Both of these tools come pre-installed on Kali, so if you are not using Kali, you will need to install them first before you
 proceed. BurpSuite will be used to create the SQL Injection payload, so you will need both of these tools.
@@ -8,7 +6,7 @@ proceed. BurpSuite will be used to create the SQL Injection payload, so you will
 * BurpSuite
 * BurpSuite Proxy for you web browser
 
------------------
+## Getting Ready
 
 First, open up the web browser to the login page.
 
@@ -22,7 +20,8 @@ Third, open BurpSuite and make sure that intercept is on.
 
 ![Alt Text]()
 
-Now we are ready to bypass authentication!
+
+## Bypass Authentication!
 
 In the username field, type ``user`` and click the login button.
 
