@@ -39,4 +39,6 @@ Enter the payload as shown below.
 
 ``username=user' UNION SELECT "pass" as password FROM admins WHERE '1'='1&password=pass``
 
+![Alt Text]()
+
 What this statement is doing is creating a self cheking statement that returns as true. 
