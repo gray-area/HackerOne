@@ -4,7 +4,7 @@ For my method, you will need 2 tools. Both of these tools come pre-installed on 
 proceed. BurpSuite will be used to create the SQL Injection payload, so you will need both of these tools.
 
 * BurpSuite
-* BurpSuite Proxy for you web browser
+* BurpSuite Proxy for your web browser
 
 ## Getting Ready
 
