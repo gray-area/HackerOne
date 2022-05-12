@@ -6,6 +6,8 @@ I wasnt sure what the edit page looked like or where it was, but I knew we could
 
 ``curl -v -X POST [hackeroneurl]/page/edit/1``
 
+![Alt Text](https://github.com/gray-area/HackerOne/blob/main/media/curl.png)
+
 The above command has a ``-v`` switch that outputs in verbose. 
 
 The ``-X`` switch is used to designate a request, followed by the method. In our case, I used ``-X POST``.
