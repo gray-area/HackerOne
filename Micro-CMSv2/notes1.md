@@ -15,3 +15,5 @@ The ``-X`` switch is used to designate a request, followed by the method. In our
 Finally, I entered the hackerone url, followed by ``/page/edit/1``.
 
 After entering this command, the flag will be displayed at the bottom of the output. 
+
+![Alt Text](https://github.com/gray-area/HackerOne/blob/main/media/flag1.png)
