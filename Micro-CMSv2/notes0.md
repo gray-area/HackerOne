@@ -2,12 +2,13 @@
 
 ## Authentication Bypass
 
-For my method, you will need 2 tools. Both of these tools come pre-installed on Kali, so if you are not using Kali, you will need to install them first.
+For my method, you will need 2 tools. Both of these tools come pre-installed on Kali, so if you are not using Kali, you will need to install them first before you
+proceed. BurpSuite will be used to create the SQL Injection payload, so you will need both of these tools.
 
 * BurpSuite
 * BurpSuite Proxy for you web browser
 
-BurpSuite will be used to create the SQL Injection payload. 
+-----------------
 
 First, open up the web browser to the login page.
 
